@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React.js Component Lifecycle demo</title>
+    <script src="react.js"></script>
+    <script src="react-dom.js"></script>
+    <script src="capitals.js"></script>
+    <script src="ListItem.js"></script>
+    <script src="SortableList.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>-->
+  </head>
+  <body>
+    <div id="example"></div>
+    <script>
+      ReactDOM.render(
+        React.createElement(SortableList, {}),
+        document.getElementById("example")
+      );
+    </script>
+  </body>
+</html>
